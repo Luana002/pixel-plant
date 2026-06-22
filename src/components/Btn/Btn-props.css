@@ -1,0 +1,36 @@
+button {
+   width: 200px;
+   height: 50px;
+
+   border-bottom: 6px solid var(--borders);
+   border-right: 6px solid var(--borders);
+   border-radius: 5px;
+}
+.header-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px;
+}
+.btn-login ,.btn-create-account {
+    cursor: pointer;
+    transition: background-color 0.2 ease;
+    margin-right: 20px;
+
+    font-size:medium;
+    font-family: var(--font);
+    color: var(--white);
+}
+.btn-login {
+    background-color: var(--btn-color-primary);
+}
+.btn-create-account {
+    background-color: var(--btn-color-secondary);
+}
+.btn-login:hover {
+    background-color: var(--btn-color-primary-hover);
+}
+.btn-create-account:hover {
+    background-color: var(--btn-color-secondary-hover);
+}

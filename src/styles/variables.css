@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --bg-main: #d2ffd1;
+    --bg-surface: hsla(0, 0%, 100%, 0.5);
+
+    /*Btn*/
+    --btn-color-primary: #2baf4e;
+    --btn-color-primary-hover: #506a69;
+    --btn-color-secondary: #1d4316;
+    --btn-color-secondary-hover: #fff;
+
+    /* bordas */
+    --borders:#1c1c1c;
+
+    --white: #fff;
+
+    --font: 'Press Start 2P', monospace;
+}
