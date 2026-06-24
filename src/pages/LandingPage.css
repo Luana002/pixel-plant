@@ -1,6 +1,4 @@
-html,
-body,
-#root {
+.hero-content {
     width: 100%;
     height: 100%;
     min-height: 100vh;
@@ -9,7 +7,7 @@ body,
     display: flex;
     flex-direction: column;
 }
-body {
+.hero-content {
     background-color: #d2ffd1;
     background-image: url(../assets/images/fundoFloresta.png);
     background-repeat: no-repeat;
@@ -29,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-h1, h3 {
+.heroTitle, .heroSubtitle {
     text-align: center;
     margin: 10px 20px;
 }
