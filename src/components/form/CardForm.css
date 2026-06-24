@@ -1,0 +1,93 @@
+.cardPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(90deg, var(--bg-main) 0%, var(--bg-main) 60%, #f7fff2 100%);
+}
+
+.cardContainer {
+    width: 800px;
+    min-height: 100vh;
+    padding: 48px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    background-color: var(--bg-surface);
+    border-left: 6px solid var(--borders);
+    box-sizing: border-box;
+}
+
+.cardPanel img {
+    width: 140px;
+    height: auto;
+    display: block;
+}
+
+.inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.inputGroup input {
+    height: 50px;
+}
+/*---------------image-----------------*/
+.formLogo {
+    width: 140px;
+    height: auto;
+    display: block;
+}
+/*------------------visual------------------*/
+
+.cardVisual {
+    flex: 1;
+}
+
+
+/* ----------------------links---------------------- */
+.links {
+    margin-top: 8px;
+    color: var(--btn-color-secondary);
+    text-decoration: none;
+    line-height: 1.6;
+    transition: color 0.2s ease;
+}
+
+.links:hover {
+    color: var(--btn-color-primary);
+}
+
+.linkHighlight {
+    color: var(--btn-color-primary);
+}
+
+/*--------------------BTN-------------------------*/
+.btnRegister {
+    width: 100%;
+    height: 50px;
+    margin-top: 16px;
+
+    background-color: var(--btn-color-Third);
+    color: var(--white);
+    border: 0;
+    border-bottom: 6px solid var(--borders);
+    border-right: 6px solid var(--borders);
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: transform 0.15s ease, filter 0.2s ease;
+}
+
+.btnRegister:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+}
+
+.btnRegister:active {
+    transform: translateY(1px);
+}
